@@ -1,0 +1,101 @@
+@font-face {
+  font-family: system;
+  font-style: normal;
+  font-weight: 300;
+  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"),
+    local("Roboto-Light"), local("DroidSans"), local("Tahoma"),
+    local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light");
+}
+
+
+#title-bar {
+  height: 31px;
+  background: linear-gradient(to right, #2f3988 0%, #3384c8 100%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  user-select: none;
+}
+
+#logo {
+  padding-left: 5px;
+  vertical-align: middle;
+}
+
+#logo-description {
+  color: black;
+  font-size: 14px;
+  font-family: "system";
+  vertical-align: middle;
+}
+
+
+
+#square {
+  font-size: 15px;
+  padding: 0px 12px 0px 10px;
+}
+
+#exit {
+  font-size: 15px;
+  padding: 0px 12px 0px 10px;
+flex-grow: 1;
+cursor: default;
+display: flex;
+background-color: #BDBDBD;
+color: #8B8B8B;
+}
+
+#url-bar {
+  height: 28px;
+  background-color: #f1f3f4;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  overflow: scroll;
+  text-overflow: ellipsis;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+#url-bar::-webkit-scrollbar {
+  display: none;
+}
+
+#ssl-padlock {
+  user-select: none;
+  padding-left: 8px;
+  margin-right: 8px;
+}
+
+#domain-name {
+  color: #000000;
+  font-size: 14px;
+  font-family: "system";
+}
+
+#domain-path {
+  color: #7c7c7c;
+  font-size: 14px;
+  font-family: "system";
+}
+
+#title-bar-width {
+  width: 540px;
+}
+
+#content {
+  width: 540px;
+  height: 300px;
+  background-color: white;
+}
+
+#oframe {
+  color: transparent;
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 600px; /* title bar height + content height */
+  width: 500px;
+}
