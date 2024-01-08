@@ -1,0 +1,180 @@
+@font-face {
+  font-family: 'mimecast-icons';
+  src: url("");
+  src: url("") format('embedded-opentype'),
+       url("") format('woff2'),
+       url("") format('woff'),
+       url("") format('truetype'),
+       url("") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'mimecast-icons';
+    src: url('../font/mimecast-icons.svg?88870484#mimecast-icons') format('svg');
+  }
+}
+*/
+ 
+ [class^="mc-icon-"]:before, [class*=" mc-icon-"]:before {
+  font-family: "mimecast-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.mc-icon-image:before { content: '\e800'; } /* '' */
+.mc-icon-word:before { content: '\e801'; } /* '' */
+.mc-icon-zip:before { content: '\e802'; } /* '' */
+.mc-icon-mimecast-logo:before { content: '\e803'; } /* '' */
+.mc-icon-secure-messaging:before { content: '\e804'; } /* '' */
+.mc-icon-illustration-ccm:before { content: '\e805'; } /* '' */
+.mc-icon-large-file-send:before { content: '\e806'; } /* '' */
+.mc-icon-mail-advanced:before { content: '\e807'; } /* '' */
+.mc-icon-mail-bounce:before { content: '\e808'; } /* '' */
+.mc-icon-doc-services:before { content: '\e809'; } /* '' */
+.mc-icon-mail-rejection:before { content: '\e80a'; } /* '' */
+.mc-icon-stationery:before { content: '\e80b'; } /* '' */
+.mc-icon-strip-and-link:before { content: '\e80c'; } /* '' */
+.mc-icon-mpp:before { content: '\e80d'; } /* '' */
+.mc-icon-illustration-mpp:before { content: '\e80e'; } /* '' */
+.mc-icon-moderated-onhold:before { content: '\e80f'; } /* '' */
+.mc-icon-personal-onhold:before { content: '\e810'; } /* '' */
+.mc-icon-adcon-icon-mega-account_2:before { content: '\e811'; } /* '' */
+.mc-icon-permitted-allowed:before { content: '\e812'; } /* '' */
+.mc-icon-large-file-send-manager:before { content: '\e813'; } /* '' */
+.mc-icon-multiple-users:before { content: '\e814'; } /* '' */
+.mc-icon-saved-search:before { content: '\e815'; } /* '' */
+.mc-icon-large-file-reiceve:before { content: '\e816'; } /* '' */
+.mc-icon-adcon:before { content: '\e817'; } /* '' */
+.mc-icon-illustration-connect-welcome:before { content: '\e818'; } /* '' */
+.mc-icon-task-complete:before { content: '\e819'; } /* '' */
+.mc-icon-task-progress:before { content: '\e81a'; } /* '' */
+.mc-icon-task-todo:before { content: '\e81b'; } /* '' */
+.mc-icon-task-validate:before { content: '\e81c'; } /* '' */
+.mc-icon-illustration-adcon:before { content: '\e81d'; } /* '' */
+.mc-icon-connect-gateway:before { content: '\e81e'; } /* '' */
+.mc-icon-connect-platform:before { content: '\e81f'; } /* '' */
+.mc-icon-connect-archive:before { content: '\e820'; } /* '' */
+.mc-icon-connect-lock:before { content: '\e821'; } /* '' */
+.mc-icon-illustration-mfo:before { content: '\e822'; } /* '' */
+.mc-icon-illustration-stationery:before { content: '\e823'; } /* '' */
+.mc-icon-illustration-ttp:before { content: '\e824'; } /* '' */
+.mc-icon-illustration-connect:before { content: '\e825'; } /* '' */
+.mc-icon-avdanced-search:before { content: '\e826'; } /* '' */
+.mc-icon-recent-search:before { content: '\e827'; } /* '' */
+.mc-icon-search:before { content: '\e828'; } /* '' */
+.mc-icon-close-thin:before { content: '\e829'; } /* '' */
+.mc-icon-adcon-icon-history:before { content: '\e82a'; } /* '' */
+.mc-icon-adcon-icon-mega-directories:before { content: '\e82b'; } /* '' */
+.mc-icon-adcon-icon-mega-monitoring:before { content: '\e82c'; } /* '' */
+.mc-icon-mcastercentral-logo:before { content: '\e82d'; } /* '' */
+.mc-icon-mcastercentral-infographic:before { content: '\e82e'; } /* '' */
+.mc-icon-optional:before { content: '\e82f'; } /* '' */
+.mc-icon-adcon-icon-acc-auditlogs:before { content: '\e830'; } /* '' */
+.mc-icon-adcon-icon-acc-roles:before { content: '\e831'; } /* '' */
+.mc-icon-adcon-icon-mega-archive:before { content: '\e832'; } /* '' */
+.mc-icon-adcon-icon-mega-gateway:before { content: '\e833'; } /* '' */
+.mc-icon-adcon-icon-acc-dashboard:before { content: '\e834'; } /* '' */
+.mc-icon-adcon-icon-mega-services:before { content: '\e835'; } /* '' */
+.mc-icon-service-monitor:before { content: '\e836'; } /* '' */
+.mc-icon-connect:before { content: '\e837'; } /* '' */
+.mc-icon-illustration-lfs:before { content: '\e838'; } /* '' */
+.mc-icon-account-hierarchy:before { content: '\e839'; } /* '' */
+.mc-icon-reviewer-tag:before { content: '\e83a'; } /* '' */
+.mc-icon-backup-restore-tasks:before { content: '\e83b'; } /* '' */
+.mc-icon-phishing:before { content: '\e83c'; } /* '' */
+.mc-icon-spam:before { content: '\e83d'; } /* '' */
+.mc-icon-reviewer-stream:before { content: '\e83e'; } /* '' */
+.mc-icon-reviewer-case:before { content: '\e83f'; } /* '' */
+.mc-icon-reviewer-compliance:before { content: '\e840'; } /* '' */
+.mc-icon-reviewer-ediscovery:before { content: '\e841'; } /* '' */
+.mc-icon-export:before { content: '\e842'; } /* '' */
+.mc-icon-illustration-reviewer:before { content: '\e843'; } /* '' */
+.mc-icon-reviewer:before { content: '\e844'; } /* '' */
+.mc-icon-app-switcher:before { content: '\e845'; } /* '' */
+.mc-icon-reset-password:before { content: '\e846'; } /* '' */
+.mc-icon-export-streams:before { content: '\e847'; } /* '' */
+.mc-icon-streams:before { content: '\e848'; } /* '' */
+.mc-icon-tab-comments:before { content: '\e849'; } /* '' */
+.mc-icon-tab-history:before { content: '\e84a'; } /* '' */
+.mc-icon-tab-html-message:before { content: '\e84b'; } /* '' */
+.mc-icon-tab-plaintext-message:before { content: '\e84c'; } /* '' */
+.mc-icon-task-skipped:before { content: '\e84d'; } /* '' */
+.mc-icon-question:before { content: '\e84e'; } /* '' */
+.mc-icon-link-kb:before { content: '\e84f'; } /* '' */
+.mc-icon-swg:before { content: '\e850'; } /* '' */
+.mc-icon-nse-search:before { content: '\e851'; } /* '' */
+.mc-icon-nse-options:before { content: '\e852'; } /* '' */
+.mc-icon-warning-outline:before { content: '\e853'; } /* '' */
+.mc-icon-permitted-auto:before { content: '\e854'; } /* '' */
+.mc-icon-permitted-trusted:before { content: '\e855'; } /* '' */
+.mc-icon-illustration-otp:before { content: '\e856'; } /* '' */
+.mc-icon-otp-guide-step1:before { content: '\e857'; } /* '' */
+.mc-icon-otp-guide-step2:before { content: '\e858'; } /* '' */
+.mc-icon-otp-guide-step3:before { content: '\e859'; } /* '' */
+.mc-icon-adcon-icon-stable-no-results-2:before { content: '\e85a'; } /* '' */
+.mc-icon-account-support-details:before { content: '\e85b'; } /* '' */
+.mc-icon-reviewer-compliance-1:before { content: '\e85d'; } /* '' */
+.mc-icon-shield:before { content: '\e860'; } /* '' */
+.mc-icon-sort-new-old:before { content: '\e872'; } /* '' */
+.mc-icon-sort-new-old-up:before { content: '\e873'; } /* '' */
+.mc-icon-adcon-mega-messagecenter:before { content: '\e878'; } /* '' */
+.mc-icon-supervision:before { content: '\e879'; } /* '' */
+.mc-icon-illustration-supervision:before { content: '\e87a'; } /* '' */
+.mc-icon-forward-as-attachment:before { content: '\e893'; } /* '' */
+.mc-icon-task-restart:before { content: '\e89c'; } /* '' */
+.mc-icon-images-not-displayed:before { content: '\e89e'; } /* '' */
+.mc-icon-message-loading-error:before { content: '\e8a3'; } /* '' */
+.mc-icon-otp-guide-step4:before { content: '\e8b6'; } /* '' */
+.mc-icon-adcon-icon-mega-web-gateway:before { content: '\e8bf'; } /* '' */
+.mc-icon-arrow-circle-down:before { content: '\e8da'; } /* '' */
+.mc-icon-arrow-circle-up:before { content: '\e8db'; } /* '' */
+.mc-icon-bulkmail:before { content: '\e8e2'; } /* '' */
+.mc-icon-fraud:before { content: '\e8e3'; } /* '' */
+.mc-icon-link:before { content: '\e8e4'; } /* '' */
+.mc-icon-links:before { content: '\e8e5'; } /* '' */
+.mc-icon-macros:before { content: '\e8e6'; } /* '' */
+.mc-icon-money:before { content: '\e8e7'; } /* '' */
+.mc-icon-password:before { content: '\e8e8'; } /* '' */
+.mc-icon-requests:before { content: '\e8e9'; } /* '' */
+.mc-icon-sender:before { content: '\e8ea'; } /* '' */
+.mc-icon-panic:before { content: '\e8eb'; } /* '' */
+.mc-icon-help-circle:before { content: '\e961'; } /* '' */
+.mc-icon-star-empty:before { content: '\e962'; } /* '' */
+.mc-icon-star-filled:before { content: '\e963'; } /* '' */
+.mc-icon-nse-clear:before { content: '\e9c2'; } /* '' */
+.mc-icon-nse-save:before { content: '\e9c4'; } /* '' */
+.mc-icon-nse-user:before { content: '\e9c6'; } /* '' */

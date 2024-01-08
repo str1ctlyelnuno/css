@@ -1,0 +1,66 @@
+#pendo-g-HSnzFk61g0hDIbg3_i1hMHRvVR0 {
+  /* Style the links */
+  /* Remove default bullets */
+  /* Remove margins and padding from the parent ul */
+  /* Style the caret/arrow */
+  /* Style the caret/Text */
+  /* Create the caret/arrow with a unicode, and style it */
+  /* Rotate the caret/arrow icon when clicked on (using JavaScript) */
+  /* Hide the nested list */
+  /* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */
+}
+#pendo-g-HSnzFk61g0hDIbg3_i1hMHRvVR0 .link {
+  position: relative;
+  width: auto;
+  float: none;
+  vertical-align: baseline;
+  display: block;
+  color: #1976d2;
+  font-weight: 400;
+  padding: 0px;
+  line-height: 0.5;
+  text-align: left;
+  margin: 20px;
+  font-size: 18px;
+  letter-spacing: 0px;
+  text-transform: none;
+  white-space: pre-wrap;
+}
+#pendo-g-HSnzFk61g0hDIbg3_i1hMHRvVR0 ul,
+#pendo-g-HSnzFk61g0hDIbg3_i1hMHRvVR0 #myUL {
+  list-style-type: none;
+}
+#pendo-g-HSnzFk61g0hDIbg3_i1hMHRvVR0 #myUL {
+  margin: 0;
+  padding: 0px 0px 0px;
+}
+#pendo-g-HSnzFk61g0hDIbg3_i1hMHRvVR0 .caret {
+  cursor: pointer;
+  user-select: none;
+  /* Prevent text selection */
+  width: Auto;
+  border-top: none;
+}
+#pendo-g-HSnzFk61g0hDIbg3_i1hMHRvVR0 span.caret {
+  font-size: 18px;
+  color: #1976d2;
+  padding: 15px;
+}
+#pendo-g-HSnzFk61g0hDIbg3_i1hMHRvVR0 .caret::before {
+  content: "\25B6";
+  color: grey;
+  display: inline-block;
+  margin-right: 6px;
+  width: none;
+  border-top: none;
+  font-size: 15px;
+}
+#pendo-g-HSnzFk61g0hDIbg3_i1hMHRvVR0 .caret-down::before {
+  transform: rotate(90deg);
+}
+#pendo-g-HSnzFk61g0hDIbg3_i1hMHRvVR0 .nested {
+  display: none;
+}
+#pendo-g-HSnzFk61g0hDIbg3_i1hMHRvVR0 .active {
+  display: block;
+}
